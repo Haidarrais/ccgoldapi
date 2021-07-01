@@ -49,7 +49,7 @@ class AuthController extends Controller
 
        return response()->json(
            [
-               'message'=>'Logged in baby',
+               'message'=>'You are Logged in',
                'data'=> [
                    'user'=> $request->user(),
                    'token'=> $token->plainTextToken
